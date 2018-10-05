@@ -18,6 +18,12 @@
   1. Input: (20)
   2. Output: (20)
 
+## Specifically:
+
+1. The program will pass a user's birth year into a Date object and calculate their current age.
+  1. Input: (1993)
+  2. Output: (25)
+
 2. The program will return a user's age in Mercury years. (.24 Earth years.)
   1. Input: (1)
   2. Output: (.24)
