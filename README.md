@@ -5,9 +5,7 @@
 
 ### Description
 
-This is program will calculate a user's hypothetical age as well as their current life expectancy on different plants. The user enters their year of birth, it is parsed through a date object and returns as an age. If the user's age exceeds their inputted life expectancy, this program will calculate how many years that user has lived over the average. Each small step of this program has been carefully tested using Jasmine and Karma. Logic is running clean and additional features are being added.    
-
-### Brainstorming and Planning
+This program will calculate a user's hypothetical age as well as their current life expectancy on different planets. The user enters their year of birth, it is parsed through a date object and returns as an age to be used in the calculations. If the user's age exceeds their inputted life expectancy, this program will calculate how many years that user has lived over the average. Each small step :full_moon_with_face: of this program has been carefully tested using Jasmine and Karma. Logic is running clean and additional features are being added.    
 
 
 ## Specs
@@ -38,7 +36,7 @@ This is program will calculate a user's hypothetical age as well as their curren
   1. Input: (1)
   2. Output: (11.86)
 
-6. The program will calculate how many years a user is expected to live on each planet, using a life expectancy value that they supply.
+6. The program will calculate how many years a user is expected to live on each planet respectively, using a life expectancy value that they supply.
   1. Input: (79)
   2. Output: (79 - (calculated solar age))
 
@@ -50,12 +48,23 @@ This is program will calculate a user's hypothetical age as well as their curren
 
 ### Technologies and Resources
 
-
+* JavaScript
+* HTML 
+* jQuery
+* Jasmine
+* Karma
+* Node Package Manager
 
 
 ### Setup Instructions
 
+First, make sure you have node package manager installed. Check out https://www.npmjs.com/get-npm for information on that. Then:
 
+`$ git clone https://github.com/Eucile/galactic-calculator-test`
+`$ cd galactic-calculator-test`
+`$ npm install`
+`$ npm init -y`
+`$ npm run start`
 
 
 ### License
