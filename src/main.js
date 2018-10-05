@@ -1,8 +1,12 @@
 import $ from 'jquery';
 import './sass/styles.scss';
 import { Age } from './backend.js';
+import { reset } from './backend.js';
 
 $(document).ready(function() {
+  $(".reset").click(function(){
+    location.reload();
+  });
   $('#galactic-form').submit(function(event) {
     event.preventDefault();
     const age = new Date().getFullYear() - parseInt($('#year-input').val());
@@ -30,5 +34,6 @@ $(document).ready(function() {
     $('.years-outlived').text('You are ' + outlivedYears + ' years ahead of your life expectancy.');
     this.reset();
     $('.flex-container').hide();
+    $('.results').show();
   })
 });
