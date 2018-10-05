@@ -41,9 +41,13 @@ describe('Age', function() {
 });
 
 describe('Date', function() {
-  let date = new Date().getFullYear();
-  let year = parseInt($('#year-input').val());
+  let date = new Date();
+  it('should return the current year', function() {
+    expect(date.getFullYear()).toEqual(2018);
+  })
+  let fullYear = new Date().getFullYear()
+  let birthYear = 2017;
   it('should return user age from birth year', function() {
-    expect((date - year));
+    expect((fullYear - birthYear)).toEqual(1);
   })
 });
