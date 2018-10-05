@@ -1,7 +1,6 @@
 import $ from 'jquery';
 import './sass/styles.scss';
 import { Age } from './backend.js';
-import { reset } from './backend.js';
 
 $(document).ready(function() {
   $(".reset").click(function(){
