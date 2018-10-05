@@ -10,7 +10,7 @@ This program will calculate a user's hypothetical age as well as their current l
 
 ## Specs
 
-1. The program will return a user's age, using the Date object.
+1. The program will return a user's age.
   1. Input: (20)
   2. Output: (20)
 

@@ -1,4 +1,5 @@
 import { Age } from './../src/backend.js';
+import './../main.js';
 
 describe('Age', function() {
   let mercuryTest = new Age(1, 79);
@@ -38,3 +39,10 @@ describe('Age', function() {
     expect(outliveTest.outlive()).toEqual(11);
   })
 });
+
+describe('Date', function() {
+  let age = new Date().getFullYear() - parseInt($('#year-input').val());
+  it('should return user age from birth year', function() {
+    expect(age(2017)).toEqual(0.24);
+  })
+})
