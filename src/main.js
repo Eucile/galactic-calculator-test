@@ -27,5 +27,6 @@ $(document).ready(function() {
     $('.mars-span').text('You are expected to live ' + marsSpan + ' more years on Mars.');
     $('.jupiter-span').text('You are expected to live ' + jupiterSpan + ' more years on Jupiter.');
     $('.years-outlived').text('You are ' + outlivedYears + ' years ahead of your life expectancy.');
+    this.reset();
   })
 });
