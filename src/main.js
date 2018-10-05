@@ -4,9 +4,9 @@ import { Age } from './backend.js';
 $(document).ready(function() {
   $('#galactic-form').submit(function(event) {
     event.preventDefault();
-    let age = new Date().getFullYear() - parseInt($('#year-input').val());
+    const age = new Date().getFullYear() - parseInt($('#year-input').val());
     let lifeExpectancy = parseInt($('#expectancy-input').val());
-    let newAge = new Age(age, lifeExpectancy);
+    const newAge = new Age(age, lifeExpectancy);
     let mercuryAge = newAge.mercury();
     let venusAge = newAge.venus();
     let marsAge = newAge.mars();

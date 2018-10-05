@@ -1,6 +1,6 @@
 ## SUPER GALACTIC AGE CALCULATOR
 
-#### Krystal Foster
+#### by Krystal Foster
 #### Oct. 5, 2018
 
 ### Description
