@@ -1,4 +1,5 @@
 import $ from 'jquery';
+import './sass/styles.scss';
 import { Age } from './backend.js';
 
 $(document).ready(function() {

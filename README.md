@@ -11,10 +11,10 @@ This program will calculate a user's hypothetical age as well as their current l
 ## Specs
 
 1. The program will return a user's age.
-  1. Input: (20)
-  2. Output: (20)
+  * Input: (20)
+  * Output: (20)
 
-### Specifically:
+### Or, more specifically:
 
 1. The program will pass a user's birth year into a Date object and calculate their current age.
   * Input: (1993)
