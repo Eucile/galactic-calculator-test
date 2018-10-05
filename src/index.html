@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
     <title>GALACTIC AGE CALCULATOR</title>
   </head>
   <body>
+    <div class="flex-container">
     <form id="galactic-form">
-      <label for="year-input">What year you were born?</label>
-      <input id="year-input" type="text">
-      <label for="expectancy-input">Your average life expectancy?</label>
-      <input id="expectancy-input" type="text">
-      <button type="submit">Check your galactic specs.</button>
+      <div class="item1">
+        <label for="year-input">What year you were born?</label><br>
+        <input id="year-input" type="text">
+      </div>
+      <div class="item2">
+        <label for="expectancy-input">Your average life expectancy?</label><br>
+        <input id="expectancy-input" type="text"><br>
+      </div>
+      <div class="button-box">
+        <button type="submit">Check your specs.</button>
+      </div>
     </form>
+    </div>
+
     <div class="publish-age">
       <p class="earth-years"></p>
       <p class="mercury-years"></p>
