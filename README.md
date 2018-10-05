@@ -49,16 +49,23 @@ This program will calculate a user's hypothetical age as well as their current l
 ### Technologies and Resources
 
 * JavaScript
-* HTML 
+* HTML
 * jQuery
+* ESlint
+* Babel
 * Jasmine
 * Karma
 * Node Package Manager
+* Webpack
 
 
 ### Setup Instructions
 
-First, make sure you have node package manager installed. Check out https://www.npmjs.com/get-npm for information on that. Then:
+First, make sure you have node package manager installed. Check out https://www.npmjs.com/get-npm for information on that. Also make sure you have karma installed globally:
+
+`$ npm install -g karma-cli`
+
+#### Then:
 
 `$ git clone https://github.com/Eucile/galactic-calculator-test`
 `$ cd galactic-calculator-test`
@@ -66,6 +73,9 @@ First, make sure you have node package manager installed. Check out https://www.
 `$ npm init -y`
 `$ npm run start`
 
+#### To run Karma:
+
+`$ npm test`
 
 ### License
 
