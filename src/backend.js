@@ -44,8 +44,7 @@ export class Age {
 
   outlive() {
     if(this.age > this.lifeExpectancy) {
-      return this.age - this.lifeExpectancy;
+      return (this.age - this.lifeExpectancy);
     }
   }
-
 }
