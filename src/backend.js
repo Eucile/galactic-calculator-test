@@ -1,3 +1,5 @@
+import './main.js';
+
 export class Age {
   constructor(age, lifeExpectancy) {
     this.age = age;
@@ -41,7 +43,9 @@ export class Age {
   }
 
   outlive() {
-    return this.age - this.lifeExpectancy;
+    if(this.age > this.lifeExpectancy) {
+      return this.age - this.lifeExpectancy;
+    }
   }
 
 }
