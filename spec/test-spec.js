@@ -23,7 +23,18 @@ describe('Age', function() {
   })
   it('should return years left to live on mercury', function() {
     let mercuryLive = new Age(1, 79);
-    expect(mercuryLive.mercurySpan()).toEqual(77.12);
+    expect(mercuryLive.mercurySpan()).toEqual(78.76);
   })
-
+  it('should return years left to live on venus', function() {
+    let venusLive = new Age(1, 79);
+    expect(venusLive.venusSpan()).toEqual(78.38);
+  })
+  it('should return years left to live on jupiter', function() {
+    let jupiterLive = new Age(1, 79);
+    expect(jupiterLive.jupiterSpan()).toEqual(67.14);
+  })
+  it('should return years exceeding user life expectency', function() {
+    let outliveTest = new Age(90, 79);
+    expect(outliveTest.outlive()).toEqual(11);
+  })
 });
