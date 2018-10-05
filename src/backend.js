@@ -17,27 +17,31 @@ export class Age {
   }
 
   jupiter() {
+    return this.age * 11.86;
+  }
 
+  earthSpan() {
+    return (this.lifeExpectancy - this.age);
   }
 
   mercurySpan() {
-
+    return (this.lifeExpectancy - (this.age * 1.88));
   }
 
   venusSpan() {
-
+    return (this.lifeExpectancy - this.age);
   }
 
   marsSpan() {
-
+    return (this.lifeExpectancy - this.age);
   }
 
   jupiterSpan() {
-
+    return (this.lifeExpectancy - this.age);
   }
 
   outlive() {
-
+    return (this.lifeExpectancy - this.age);
   }
 
 }
