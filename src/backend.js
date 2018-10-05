@@ -1,3 +1,4 @@
+import $ from 'jquery';
 import './main.js';
 
 export class Age {
@@ -45,6 +46,9 @@ export class Age {
   outlive() {
     if(this.age > this.lifeExpectancy) {
       return (this.age - this.lifeExpectancy);
+    }
+    else {
+      $('.years-outlived').hide();
     }
   }
 }
