@@ -14,7 +14,7 @@ This program will calculate a user's hypothetical age as well as their current l
   1. Input: (20)
   2. Output: (20)
 
-## Specifically:
+### Specifically:
 
 1. The program will pass a user's birth year into a Date object and calculate their current age.
   1. Input: (1993)
@@ -68,10 +68,15 @@ First, make sure you have node package manager installed. Check out https://www.
 #### Then:
 
 `$ git clone https://github.com/Eucile/galactic-calculator-test`
+
 `$ cd galactic-calculator-test`
+
 `$ npm install`
+
 `$ npm init -y`
+
 `$ npm run start`
+
 
 #### To run Karma:
 
