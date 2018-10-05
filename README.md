@@ -5,11 +5,9 @@
 
 ### Description
 
-
+This is program will calculate a user's hypothetical age as well as their current life expectancy on different plants. The user enters their year of birth, it is parsed through a date object and returns as an age. If the user's age exceeds their inputted life expectancy, this program will calculate how many years that user has lived over the average. Each small step of this program has been carefully tested using Jasmine and Karma. Logic is running clean and additional features are being added.    
 
 ### Brainstorming and Planning
-
-
 
 
 ## Specs

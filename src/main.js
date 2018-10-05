@@ -16,7 +16,7 @@ $(document).ready(function() {
     let venusSpan = newAge.venusSpan();
     let marsSpan = newAge.marsSpan();
     let jupiterSpan = newAge.jupiterSpan();
-    let outlive = newAge.outlive();
+    let outlivedYears = newAge.outlive();
     $('.mercury-years').text('You are ' + mercuryAge + ' years old on Mercury.');
     $('.venus-years').text('You are ' + venusAge + ' years old on Venus.');
     $('.mars-years').text('You are ' + marsAge + ' years old on Mars.');
@@ -26,6 +26,6 @@ $(document).ready(function() {
     $('.venus-span').text('You are expected to live ' + venusSpan + ' more years on Venus.');
     $('.mars-span').text('You are expected to live ' + marsSpan + ' more years on Mars.');
     $('.jupiter-span').text('You are expected to live ' + jupiterSpan + ' more years on Jupiter.');
-    $('.years-outlived').text('You are ' + outlive + ' years ahead of your life expectancy.');
+    $('.years-outlived').text('You are ' + outlivedYears + ' years ahead of your life expectancy.');
   })
 });
