@@ -5,7 +5,6 @@ $(document).ready(function() {
   $('#galactic-form').submit(function(event) {
     event.preventDefault();
     let age = new Date().getFullYear() - parseInt($('#year-input').val());
-    console.log(age);
     let lifeExpectancy = parseInt($('#expectancy-input').val());
     let newAge = new Age(age, lifeExpectancy);
     let mercuryAge = newAge.mercury();
@@ -22,14 +21,11 @@ $(document).ready(function() {
     $('.venus-years').text('You are ' + venusAge + ' years old on Venus.');
     $('.mars-years').text('You are ' + marsAge + ' years old on Mars.');
     $('.jupiter-years').text('You are ' + jupiterAge + ' years old on Jupiter.');
-
     $('.earth-span').text('You are expected to live ' + earthSpan + ' more years on Earth.');
     $('.mercury-span').text('You are expected to live ' + mercurySpan + ' more years on Mercury.');
     $('.venus-span').text('You are expected to live ' + venusSpan + ' more years on Venus.');
     $('.mars-span').text('You are expected to live ' + marsSpan + ' more years on Mars.');
     $('.jupiter-span').text('You are expected to live ' + jupiterSpan + ' more years on Jupiter.');
-
-
     $('.years-outlived').text('You are ' + outlive + ' years ahead of your life expectancy.');
   })
 });
