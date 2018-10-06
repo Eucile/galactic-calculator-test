@@ -5,7 +5,7 @@
 
 ### Description
 
-This program will calculate a user's hypothetical age as well as their current life expectancy on different planets. The user enters their year of birth, it is parsed through a date object and returns as an age to be used in the calculations. If the user's age exceeds their inputted life expectancy, this program will calculate how many years that user has lived over the average. Each small step :full_moon_with_face: of this program has been carefully tested using Jasmine and Karma. Logic is running clean and additional features are being added.    
+This program will calculate a user's hypothetical age as well as their current life expectancy on different planets. The user enters their year of birth, it is parsed through a date object and returns as an age to be used in the calculations. If the user's age exceeds their inputted life expectancy, this program will calculate how many years that user has lived over the average. Each small step :rocket: of this program has been carefully tested using Jasmine and Karma. Logic is running clean and additional features are being added.    
 
 
 ## Specs
