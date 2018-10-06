@@ -17,12 +17,14 @@ body {
     padding: 2em;
     color: white;
     text-align: center;
+    color: rgba(255, 255, 255, .75);
     label {
       margin-right: 7px;
     }
     #year-input {
       background: none;
       border-width: thin;
+      height: .9em;
       color: white;
       width: 20%;
       border-radius: 2px;
@@ -32,12 +34,14 @@ body {
     padding: 2em;
     color: white;
     text-align: center;
+    color: rgba(255, 255, 255, .75);
     label {
       margin-left: 7px;
     }
     #expectancy-input {
       background: none;
       border-width: thin;
+      height: .9em;
       color: white;
       width:15%;
       border-radius: 2px;
@@ -50,8 +54,10 @@ button {
   font-size: .8em;
   padding: .4em;
   margin-top: 2em;
+  letter-spacing: .3em;
+  font-weight: bold;
   width: 65%;
-  background: rgba(255, 255, 255, .9);
+  background: rgba(255, 255, 255, .75);
 }
 
 .specs-button {
