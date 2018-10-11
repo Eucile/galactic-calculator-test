@@ -7,6 +7,10 @@ export class Age {
     this.lifeExpectancy = lifeExpectancy;
   }
 
+  type() {
+    return typeof this;
+  }
+
   mercury() {
     return this.age * .24;
   }

@@ -2,6 +2,10 @@ import { Age } from './../src/backend.js';
 import './../src/main.js';
 
 describe('Age', function() {
+  it('should create object', function() {
+    var testObject = new Age(1, 97);
+    expect(testObject.type()).toEqual("object");
+  })
   let mercuryTest = new Age(1, 79);
   it('should return user age multiplied by .24', function() {
     expect(mercuryTest.mercury()).toEqual(0.24);

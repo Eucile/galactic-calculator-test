@@ -1,7 +1,7 @@
 {
   "name": "date",
   "version": "1.0.0",
-  "description": "",
+  "description": "#### by Krystal Foster #### Oct. 5, 2018",
   "main": "index.js",
   "scripts": {
     "test": "karma start karma.conf.js",
@@ -43,5 +43,8 @@
   },
   "dependencies": {
     "jquery": "^3.3.1"
-  }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
